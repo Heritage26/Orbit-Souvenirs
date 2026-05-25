@@ -36,8 +36,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Orbit Souvenirs — Memories in Every Direction</title>
-        <meta name="description" content="Orbit Souvenirs — high-quality souvenir distribution for retailers, events and businesses." />
+        <title>Orbit Souvenirs Memories in Every Direction</title>
+        <meta name="description" content="Orbit Souvenirs high quality souvenir distribution for events and businesses." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
       </Head>
@@ -72,7 +72,7 @@ export default function Home() {
           <p className="eyebrow">Souvenir Distribution</p>
           <h1>Your World of Souvenirs,<br /><em>Delivered.</em></h1>
           <p className="hero-sub">
-            We connect retailers, event organizers, and businesses with
+            We connect event organizers, and businesses with
             high-quality keepsakes that celebrate every special moment.
           </p>
           <div className="hero-btns">
@@ -101,7 +101,7 @@ export default function Home() {
               <h2>More Than Just Souvenirs</h2>
               <p className="body-text">
                 At Orbit Souvenirs, we believe every occasion deserves to be remembered.
-                We are a dedicated souvenir distribution company — supplying retailers,
+                We are a dedicated souvenir distribution company supplying
                 event organizers, and businesses with curated, meaningful products
                 delivered reliably, every time.
               </p>
@@ -116,12 +116,12 @@ export default function Home() {
             <div className="vm-card">
               <div className="vm-block">
                 <p className="vm-lbl">Vision</p>
-                <p className="vm-text">To be the most reliable and creative souvenir distribution company — known for delivering products that carry meaning, celebrate moments, and leave lasting impressions on every recipient.</p>
+                <p className="vm-text">To Evolve From An Ambitious Campus Initiative Into The Preimer Global Network For Event Souvenir Logistics, Redefining The Gifting Industry By Making Stress-Free, Memorable Keepsakes Accessible To Communities Worldwide.</p>
               </div>
               <div className="vm-div" />
               <div className="vm-block">
                 <p className="vm-lbl">Mission</p>
-                <p className="vm-text">To source and distribute a diverse range of high-quality souvenirs to retailers, businesses, and event partners — providing excellent service, competitive pricing, and products that truly capture the essence of every special moment.</p>
+                <p className="vm-text">To Eliminate The Stress Of celebration By Planning, Sourcing And Distributing Meaningful Event Souvenirs, Transforming a LogisticalHurdle Into A Seamless Experience That Allows Hosts And Thier Loved Ones To Cherish Every Moment.</p>
               </div>
             </div>
           </div>
@@ -134,7 +134,7 @@ export default function Home() {
           <div className="section-head">
             <p className="label">Our Products</p>
             <h2>Curated for Every Occasion</h2>
-            <p className="section-sub">From intimate celebrations to large corporate events — we carry the perfect keepsake for every moment.</p>
+            <p className="section-sub">From intimate celebrations to large corporate events we carry the perfect keepsake for every moment.</p>
           </div>
           <div className="gallery-grid">
             {GALLERY.map((item, i) => (
@@ -179,7 +179,7 @@ export default function Home() {
                 num: '03',
                 icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><line x1="12" y1="12" x2="12" y2="16"/><line x1="10" y1="14" x2="14" y2="14"/></svg>,
                 title: 'Corporate Giveaways',
-                desc: 'Professional, branded gifts that represent your company with style — perfect for conferences, launches, and appreciation events.',
+                desc: 'Professional, branded gifts that represent your company with style perfect for conferences, launches, and appreciation events.',
               },
               {
                 num: '04',
@@ -208,15 +208,15 @@ export default function Home() {
             <div className="why-left">
               <p className="label">Why Choose Us</p>
               <h2>The Orbit Difference</h2>
-              <p className="body-text">We don't just distribute souvenirs — we deliver experiences. Every product, every order, every partnership is handled with care, precision, and dedication.</p>
+              <p className="body-text">We don't just distribute souvenirs we deliver experiences. Every product, every order, every partnership is handled with care, precision, and dedication.</p>
               <img src="/logo.png" alt="Orbit Souvenirs" className="why-logo" />
             </div>
             <div className="why-right">
               {[
-                { title: 'Quality Products', desc: 'Every item meets high standards of craftsmanship — your brand deserves nothing less.' },
+                { title: 'Quality Products', desc: 'Every item meets high standards of craftsmanship your brand deserves nothing less.' },
                 { title: 'Fast & Reliable Distribution', desc: 'Your orders arrive when you need them. We deliver on time, every time.' },
                 { title: 'Fully Customizable', desc: 'We tailor every product to your brand or event theme with precision.' },
-                { title: 'Wide Variety for Every Occasion', desc: 'From intimate celebrations to large corporate events — we have the right souvenir.' },
+                { title: 'Wide Variety for Every Occasion', desc: 'From intimate celebrations to large corporate events we have the right souvenir.' },
               ].map((item, i) => (
                 <div className="why-item" key={i}>
                   <div className="why-num">0{i + 1}</div>
